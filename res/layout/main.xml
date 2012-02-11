@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chatter2" >
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="248dp"
+       
+        android:textColor="#000000"  
+        android:text="Admin" />
+
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="296dp"
+        android:text="User"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="221dp"
+        android:text="Profile Name" 
+        android:textColor="#000000"/>
+      
+
+</AbsoluteLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/finger" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="12dp"
+        android:text="Task Selection"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+         />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="69dp"
+        android:text="Pictures" 
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="140dp"
+        android:text="Phrases" 
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="218dp"
+        android:text="Phone Call" 
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="304dp"
+        android:text="Book Reader" 
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="386dp"
+        android:text="Emergency Email"
+        android:textColor="#000000"
+        />
+
+</AbsoluteLayout>
